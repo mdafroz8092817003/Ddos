@@ -1,0 +1,9 @@
+nano ~/.bashrc
+source ~/.bashrc
+echo $http_proxy
+echo $https_proxy
+curl ifconfig.me
+
+
+export http_proxy="http://125.16.181.179:9988"
+export https_proxy="http://125.16.181.179:9988"
